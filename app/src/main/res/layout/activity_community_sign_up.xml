@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".community.CommunitySignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:src="@drawable/ic_launcher_round"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/communityNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner_txt_beackground"
+            android:hint="Community Name"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/communityCodeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner_txt_beackground"
+            android:hint="Community Code"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner_txt_beackground"
+            android:hint="Email Address"
+            android:layout_marginBottom="20dp"
+            android:inputType="textEmailAddress"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner_txt_beackground"
+            android:hint="Password"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/cnfrmPasswordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner_txt_beackground"
+            android:hint="Confirm Password"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner_btn_background"
+            android:text="Create Community"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/gotosignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="signin"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/ground" />
+    </LinearLayout>
+
+</ScrollView>
